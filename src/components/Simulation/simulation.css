@@ -1,0 +1,10 @@
+.container {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 8px;
+    margin: auto;
+    order: 1;
+}
+

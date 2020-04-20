@@ -2,6 +2,7 @@
 
 
 .App {
+    text-align: center;
     font-family: 'Roboto', sans-serif;
     background-color: #e5e5e5;
     position: fixed;
@@ -10,4 +11,10 @@
     bottom: 0;
     right: 0;
     overflow: auto;
+}
+
+.content_container {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
 }
