@@ -8,10 +8,12 @@ import Simulation from './components/Simulation'
 export const AppContext = createContext();
 
 const data = {
-    mass1: 1,
-    mass2: 1,
+    mass1: 20,
+    mass2: 20,
     theta1: 0,
-    theta2: 0
+    theta2: 0,
+    line1: 75,
+    line2: 75
 };
 
 const AppReducer = (data, action)  => {
@@ -22,6 +24,8 @@ const AppReducer = (data, action)  => {
         data.mass2 = action.data.mass2;
         data.theta1 = action.data.theta1;
         data.theta2 = action.data.theta2;
+        data.line1 = action.data.line1;
+        data.line2 = action.data.line2;
         return {
           ...data,
         };
